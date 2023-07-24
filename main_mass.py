@@ -16,7 +16,7 @@ from scripts.load_xml import load_scene
 from scripts.constants import REMESH_DIR
 from scripts.geometry import remove_duplicates, compute_face_normals, compute_vertex_normals, average_edge_length, massmatrix_voronoi
 sys.path.append(REMESH_DIR)
-from pyremesh import remesh_botsch
+# from pyremesh import remesh_botsch
 
 def full_area(verts, faces, eps=1e-18):
     face_verts = verts[faces]
