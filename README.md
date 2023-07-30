@@ -1,4 +1,4 @@
-# density-adaptation
+# Mesh Density Adaptation for Template-based Shape Reconstruction
 \[ArXiv (Will be approved soon)\] \[[Video](https://youtu.be/L-WNBUNyP-Y)\] \[[Paper](https://doi.org/10.1145/3588432.3591498)\]
 
 Official code for Yucheol Jung*, Hyomin Kim*, Gyeongha Hwang, Seung-Hwan Baek, Seungyong Lee,
