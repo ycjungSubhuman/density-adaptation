@@ -1,1 +1,5 @@
 *__pycache__*
+!3dcaricshop/original_data/processedData/rawMesh
+3dcaricshop/original_data/processedData/rawMesh/*
+!3dcaricshop/sphere_fit
+3dcaricshop/sphere_fit/*
