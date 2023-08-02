@@ -1,5 +1,5 @@
 # Mesh Density Adaptation for Template-based Shape Reconstruction
-\[ArXiv (Will be approved soon)\] \[[Video](https://youtu.be/L-WNBUNyP-Y)\] \[[Paper](https://doi.org/10.1145/3588432.3591498)\]
+\[[ArXiv](http://arxiv.org/abs/2307.16205)\] \[[Video](https://youtu.be/L-WNBUNyP-Y)\] \[[Paper](https://doi.org/10.1145/3588432.3591498)\]
 
 Official code for Yucheol Jung*, Hyomin Kim*, Gyeongha Hwang, Seung-Hwan Baek, Seungyong Lee,
 "Mesh Density Adaptation for Template-based Shape Reconstruction", SIGGRAPH 2023.
