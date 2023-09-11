@@ -1,0 +1,12 @@
+cholespy>=0.1.4
+matplotlib>=3.3.2
+pythreejs
+git+https://github.com/skoch9/meshplot.git@725e4a7
+numpy>=1.19.4
+pandas>=1.2.4
+seaborn>=0.11.1
+tqdm>=4.54.1
+imageio>=2.9.0
+libigl>=2.4.1
+open3d>=0.17.0
+git+https://github.com/facebookresearch/pytorch3d.git@stable

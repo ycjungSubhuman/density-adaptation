@@ -16,27 +16,40 @@ This repository contains the code for the density adaptation module and scripts 
 git clone --recursive https://github.com/ycjungSubhuman/density-adaptation
 ```
 
-### Inverse Rendering
-
-* Download the scene files from https://github.com/rgl-epfl/large-steps-pytorch and save the `scene` directory under `ext/large-steps`
-
 #### Docker
 * Launch a docker environment using the image `min00001/adadense`
 ```bash
-docker --gpus all -v $PWD:/workspace -it min00001/adadense /bin/bash
+docker run --gpus all -v $PWD:/workspace -it min00001/adadense /bin/bash
 cd /workspace
 conda activate lapf
+```
+
+#### Docker (Build from dockerfile)
+
+```bash
+cd docker
+docker build -t gltorch .
+cd ..
+docker run --gpus all -v $PWD:/workspace -it gltorch /bin/bash
+cd /workspace
 python generate_mass.py
 ```
 
 #### Non-docker
 
-Coming soon
+1. Install pytorch and nvdiffrast
+1. `pip install -r docker/requirements.txt`
+
+### Inverse Rendering
+
+1. Download the scene files from https://github.com/rgl-epfl/large-steps-pytorch and save the `scene` directory under `ext/large-steps`
+2. `python generate_mass.py`
 
 
 ### Non-rigid registration
 
-The code for the non-rigid registration will be released soon.
+1. Download the 3DCaricShop data from https://qiuyuda.github.io/3DCaricShop/ and save the contents of `processedData/rawMesh` under `./3dcaricshop/original_data/processedData/rawMesh`
+2. `python fitting_sphere`
 
 ## Citation
 

@@ -1,3 +1,6 @@
 [submodule "ext/large-steps"]
 	path = ext/large-steps
 	url = git@github.com:rgl-epfl/large-steps-pytorch.git
+[submodule "docker/nvdiffrast"]
+	path = docker/nvdiffrast
+	url = git@github.com:NVlabs/nvdiffrast.git
