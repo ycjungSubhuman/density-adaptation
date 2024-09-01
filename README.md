@@ -53,7 +53,7 @@ python generate_mass.py
 
 ### Non-rigid registration (with landmarks)
 
-1. Download the 3DCaricShop data from https://qiuyuda.github.io/3DCaricShop/ and save the contents of `processedData/rawMesh` under `./3dcaricshop/original_data/processedData/rawMesh`
+1. Download the 3DCaricShop data from https://qiuyuda.github.io/3DCaricShop/ and save the contents of `processedData` under `./3dcaricshop/original_data/processedData/`
 2. `python fitting_sphere_lmk.py`
 
 Note 1: The landmark for sphere in `./3dcaricshop/data/` is produced via landmark averaging described in the paper.
