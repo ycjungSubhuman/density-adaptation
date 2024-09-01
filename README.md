@@ -88,9 +88,6 @@ If you want to cite this code, you may refer to this bibtex entry
 }
 ```
 
-All rights reserved. If you want to use this code for commercial project, contact ycjung@postech.ac.kr
-Feel free to use for academic researches.
-
 ## Acknowledgement
 This code builds upon https://github.com/rgl-epfl/large-steps-pytorch . We thank the authors for sharing their code.
 
