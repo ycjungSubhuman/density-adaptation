@@ -48,8 +48,17 @@ python generate_mass.py
 
 ### Non-rigid registration
 
+1. Download the 3DCaricShop data from https://qiuyuda.github.io/3DCaricShop/ and save the contents of `processedData` under `./3dcaricshop/original_data/processedData/`
+2. `python fitting_sphere.py`
+
+### Non-rigid registration (with landmarks)
+
 1. Download the 3DCaricShop data from https://qiuyuda.github.io/3DCaricShop/ and save the contents of `processedData/rawMesh` under `./3dcaricshop/original_data/processedData/rawMesh`
-2. `python fitting_sphere`
+2. `python fitting_sphere_lmk.py`
+
+Note 1: The landmark for sphere in `./3dcaricshop/data/` is produced via landmark averaging described in the paper.
+Note 2: So, in this case, the baseline `large_steps` also benefits from our density adaptation because the density adaption is already "embedded" in the landmark annotation.
+Note 3: This script may not completely reproduce the reported numerical errors in the paper. Visually they should produce similar results.
 
 ## Citation
 
